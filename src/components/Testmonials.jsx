@@ -25,7 +25,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-16 px-4 md:px-16">
+    <section className="py-16 bg-gray-200 px-4 md:px-16">
       <h2 className="text-center text-3xl md:text-4xl font-extrabold text-red-600 mb-10">
         Our Clients <span className="text-black">Feedback</span>
       </h2>

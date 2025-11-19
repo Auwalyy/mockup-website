@@ -4,6 +4,7 @@ import Testimonials from '../components/Testmonials'
 import ServicesSection from '../components/ServicesSection'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 
 const Landing = () => {
@@ -12,8 +13,9 @@ const Landing = () => {
       <Navbar />
       <HeroSection />
       <ServicesSection />
-        <WhyChooseUs />
-        <Testimonials />
+      <WhyChooseUs />
+      <Testimonials />
+      <Footer />
     </div>
   )
 }
