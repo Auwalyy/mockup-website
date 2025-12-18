@@ -116,7 +116,6 @@ function StudioBooking() {
   const addonsTotal = Object.values(addonPrices).reduce((sum, price) => sum + price, 0);
   const estimatedTotal = subtotal + addonsTotal;
 
-  // Handle Estimator booking
   const handleEstimatorBook = () => {
     const selectedAddons = [];
     if (estimatorAddons.extraCamera) selectedAddons.push('Extra camera set-up (+$50)');
